@@ -53,6 +53,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'tango_with_django_project.urls'
 
+<<<<<<< HEAD
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
@@ -66,6 +67,12 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [TEMPLATE_DIR,],
+=======
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [],
+>>>>>>> 88fa12024f1f1fd08a9a11660d4994202c3938e0
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -73,7 +80,10 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+<<<<<<< HEAD
                 'django.template.context_processors.media',
+=======
+>>>>>>> 88fa12024f1f1fd08a9a11660d4994202c3938e0
             ],
         },
     },
