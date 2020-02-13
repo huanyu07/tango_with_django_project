@@ -38,25 +38,20 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'tango_with_django_project.urls'
 
-<<<<<<< HEAD
-=======
 
->>>>>>> f0732bc7d456bff32a83cac9d58e1045bb6ca61a
+
+
+
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [STATIC_DIR,]
-<<<<<<< HEAD
+
 
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
-=======
-MEDIA_DIR = os.path.join(BASE_DIR, 'media')
-MEDIA_ROOT = MEDIA_DIR
-MEDIA_URL = '/media/'
->>>>>>> f0732bc7d456bff32a83cac9d58e1045bb6ca61a
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -68,14 +63,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-<<<<<<< HEAD
-                'django.template.context_processors.media',
-=======
 
                 'django.template.context_processors.media',
 
-
->>>>>>> f0732bc7d456bff32a83cac9d58e1045bb6ca61a
             ],
         },
     },

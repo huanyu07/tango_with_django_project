@@ -17,8 +17,6 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from rango import views
-from django.conf import settings
-from django.conf.urls.static import static
 
 from django.conf import settings
 from django.conf.urls.static import static
@@ -29,12 +27,8 @@ urlpatterns = [
     path('rango/', include('rango.urls')),
     # The above maps any URLs starting with rango/ to be handled by rango.
     path('admin/', admin.site.urls),
-<<<<<<< HEAD
-    
-]+ static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
-=======
 
 ]+ static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 
 
->>>>>>> f0732bc7d456bff32a83cac9d58e1045bb6ca61a
+
